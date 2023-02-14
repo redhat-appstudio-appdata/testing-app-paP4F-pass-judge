@@ -1,0 +1,15 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  annotations:
+    appstudio.openshift.io/application: testing-app
+    appstudio.openshift.io/component: devfile-sample-jxn2
+    build.appstudio.openshift.io/build: "true"
+    build.appstudio.openshift.io/type: build
+    build.appstudio.openshift.io/version: "0.1"
+    pipelines.appstudio.openshift.io/type: build
+  creationTimestamp: null
+  name: devfile-sample-jxn2
+  namespace: christianvogt-tenant
+spec:
+  url: https://github.com/christianvogt/devfile-sample
