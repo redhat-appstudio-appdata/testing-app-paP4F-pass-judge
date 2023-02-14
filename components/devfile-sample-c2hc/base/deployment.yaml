@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-c2hc
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:christianvogt-tenant-devfile-sample-c2hc
+      - image: quay.io/redhat-appstudio/user-workload@sha256:ee511a35629ca170ae574b4f6e1ca328c456e99774444d2030bdb31a5a9a1245
         name: my-nodejs
         ports:
         - containerPort: 3001
